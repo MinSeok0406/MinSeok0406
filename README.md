@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @MinSeok0406
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Dungreed_Imitation
+Dungreed_Imitation
 
-<!---
-MinSeok0406/MinSeok0406 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+New_Vision 던그리드 모작 개발
+
+** 유니티 버전 : 2021.3.24f1
