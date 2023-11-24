@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Login Example</title>
+</head>
+<body>
+
+<?php
+session_start();
+
+if(isset($_SESSION['username'])) {
+    $username = $_SESSION['username'];
+    echo "<h1>Welcome, $username!</h1>";
+    echo "<p><a href='logout.php'>Logout</a></p>";
+} else {
+    echo "<h1>Please log in</h1>";
+    echo "<form action='login.php' method='post'>";
+    echo "  <label for='username'>Username:</label>";
+    echo "  <input type='text' id='username' name='username' required><br>";
+    echo "  <label for='password'>Password:</label>";
+    echo "  <input type='password' id='password' name='password' required><br>";
+    echo "  <input type='submit' value='Login'>";
+    echo "</form>";
+}
+?>
+
+</body>
+</html>
